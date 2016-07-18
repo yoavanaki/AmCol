@@ -25,10 +25,10 @@ body {
   width: 100%;
 }
 body {
-  font-family: 'FiftyFive', sans-serif;
+  font-family: "Lucida Grande", sans-serif;
 }
 hr {
-  border-color: #5482d4;
+  border-color: #169BA5;
   border-width: 3px;
   max-width: 50px;
 }
@@ -39,19 +39,21 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #5482d4;
+  color: #169BA5;
 }
 a:hover,
 a:focus {
   color: #1c3665;
 }
-h1,
+h1 {
+  font-family: "Century Gothic", sans-serif;
+}
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'NachshonLight', serif;
+  font-family: "Palatino", serif;
 }
 p {
   font-size: 16px;
@@ -59,7 +61,7 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #5482d4;
+  background-color: #169BA5;
 }
 .bg-dark {
   background-color: #222222;
@@ -80,17 +82,23 @@ aside {
 .navbar-default {
   background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
-  font-family: 'FiftyFive', sans-serif;
+  font-family: "Lucida Grande", sans-serif;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
-  color: #5482d4;
-  font-family: 'FiftyFive', sans-serif;
+  color: #169BA5;
+  font-family: "Lucida Grande", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
+
+.navbar-logo {
+  margin-top: 8px;
+  height: 35px;
+}
+
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
   color: #1c3665;
@@ -110,11 +118,11 @@ aside {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #5482d4;
+  color: #169BA5;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #5482d4 !important;
+  color: #169BA5 !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -146,7 +154,7 @@ aside {
     border-color: rgba(34, 34, 34, 0.05);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: #5482d4;
+    color: #169BA5;
     font-size: 14px;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -159,7 +167,7 @@ aside {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #5482d4;
+    color: #169BA5;
   }
 }
 header {
@@ -182,7 +190,7 @@ header .header-content {
   width: 100%;
 }
 header .header-content .header-content-inner h1 {
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
@@ -268,7 +276,7 @@ header .header-content .header-content-inner p {
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-family: 'FiftyFive', sans-serif;
+  font-family: "Lucida Grande", sans-serif;
   padding: 0 15px;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -297,7 +305,7 @@ header .header-content .header-content-inner p {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: #5482d4;
+  color: #169BA5;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -353,8 +361,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: white;
-  background-color: #5482d4;
-  border-color: #5482d4;
+  background-color: #169BA5;
+  border-color: #169BA5;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -366,8 +374,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #1c3665;
-  border-color: #1c3665;
+  background-color: #5CBEC7;
+  border-color: #5CBEC7;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -392,15 +400,15 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #5482d4;
-  border-color: #5482d4;
+  background-color: #169BA5;
+  border-color: #169BA5;
 }
 .btn-primary .badge {
-  color: #5482d4;
+  color: #169BA5;
   background-color: white;
 }
 .btn {
-  font-family: 'FiftyFive', sans-serif;
+  font-family: "Lucida Grande", sans-serif;
   border: none;
   border-radius: 300px;
   font-weight: 700;
